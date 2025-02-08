@@ -1,0 +1,1 @@
+The Firebase SDK might throw an error if the client is offline, and the app tries to perform an operation that requires a network connection. This is often not handled correctly in the app code, causing unexpected crashes or silent failures.  For example, attempting to write data to the Realtime Database while offline can lead to issues. 
